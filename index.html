@@ -25,7 +25,6 @@
 	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 
-
 </head>
 
 <body>
@@ -39,7 +38,12 @@
 						</div>
 					</div>
 
-					<div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="#">Inscrever-se</a></div>
+					<div class="navbar-btn order-lg-2">
+						<a class="btn btn-secondary text-decoration-none"
+							href="https://hubconnecteventos.com.br/evento/capitaltech2023" target="_blank">
+							Inscreva-se
+						</a>
+					</div>
 
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
 						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +89,11 @@
 						class="far fa-clock me-2"></i>8H às 13H</div>
 				<div class="hero-intro mb-2">Conferência única com oportunidades focadas em aprendizado e networking.
 				</div>
-				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="#schedule-section">Agenda</a></div>
+				<div class="hero-cta">
+					<a class="btn btn-info text-decoration-none btn-lg" href="https://www.papercall.io/capitaltech" target="_blank">
+						Quero palestrar
+					</a>
+				</div>
 
 			</div><!--//hero-text-block-->
 		</div><!--//container-->
@@ -150,15 +158,36 @@
 				<h4 class="countdown-intro mb-2 text-center mb-3">Evento começa em:</h4>
 				<div id="countdown-box" class="countdown-box"></div>
 			</div><!--//event-countdown-->
-			<div class="about-cta text-center"><a class="btn btn-secondary btn-lg  mb-3" href="#">Faça sua
-					inscrição agora</a></div>
+			<div class="about-cta text-center">
+				<a class="btn btn-secondary btn-lg text-decoration-none mb-3"
+					href="https://hubconnecteventos.com.br/evento/capitaltech2023" target="_blank">
+					Faça sua inscrição agora</a>
+			</div>
 		</div><!--//container-->
 	</section><!--//about-section-->
-	
+
 	<section id="speakers-section" class="speakers-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-5">Palestrantes</h3>
-			<div class="row">
+			<h3 class="section-heading text-center mb-4">Palestrantes</h3>
+
+			<!-- Nav tabs -->
+			<ul class="schedule-nav nav nav-pills nav-fill" id="tab-speakers" role="tablist">
+				<li class="nav-item me-2">
+					<a class="nav-link" id="tab-message-speakers" data-bs-toggle="tab" role="tab"
+						aria-controls="tab-first-speakers" aria-selected="true">
+						<span class="heading">Em breve 🔥</span>
+					</a>
+				</li>
+			</ul>
+
+			<div class="about-cta text-center">
+				<a class="btn btn-info btn-lg text-decoration-none mt-3" href="https://www.papercall.io/capitaltech"
+					target="_blank">
+					Submeter palestra
+				</a>
+			</div>
+
+			<!-- <div class="row">
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-1.jpg" class="card-img-top rounded-0" alt="">
@@ -167,18 +196,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Senior Software Developer</div>
 								<div class="meta">Angular Core Team</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-2.jpg" class="card-img-top rounded-0" alt="">
@@ -187,18 +216,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Developer Advocate</div>
 								<div class="meta">Google</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-3.jpg" class="card-img-top rounded-0" alt="">
@@ -207,18 +236,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Software Developer</div>
 								<div class="meta">React Core Team</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-4.jpg" class="card-img-top rounded-0" alt="">
@@ -227,18 +256,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Founder &amp; CTO</div>
 								<div class="meta">Startup Week</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-5.jpg" class="card-img-top rounded-0" alt="">
@@ -247,18 +276,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Software Architect</div>
 								<div class="meta">GitHub</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-6.jpg" class="card-img-top rounded-0" alt="">
@@ -267,18 +296,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Senior Software Engineer</div>
 								<div class="meta">Twitter</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-7.jpg" class="card-img-top rounded-0" alt="">
@@ -287,18 +316,18 @@
 							<div class="card-text mb-3">
 								<div class="meta">Senior Software Developer</div>
 								<div class="meta">Facebook</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<img src="assets/images/speakers/speaker-8.jpg" class="card-img-top rounded-0" alt="">
@@ -307,19 +336,19 @@
 							<div class="card-text mb-3">
 								<div class="meta">Lead Developer</div>
 								<div class="meta">Microsoft</div>
-							</div><!--//card-text-->
-						</div><!--//card-->
+							</div>
+						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
 								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul><!--//social-list-->
+							</ul>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
-			</div><!--//row-->
+					</div>
+				</div>
+			</div> -->
 		</div><!--//container-->
 
 	</section><!--//speakers-section-->
@@ -328,33 +357,34 @@
 
 	<section id="schedule-section" class="schedule-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-5">Agenda</h3>
+			<h3 class="section-heading text-center mb-4">Agenda</h3>
 
 			<!-- Nav tabs -->
-			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
+			<ul class="schedule-nav nav nav-pills nav-fill" id="tab-schedule" role="tablist">
 				<li class="nav-item me-2">
-					<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab"
-						aria-controls="tab-1-content" aria-selected="true">
-						<span class="heading">Dia único</span>
-						<span class="meta">(Sábado, 27 de Maio)</span>
+					<a class="nav-link active" id="tab-message-schedule" data-bs-toggle="tab" role="tab"
+						aria-controls="tab-first-schedule" aria-selected="true">
+						<span class="heading">Em breve 🔥</span>
+						<!-- <span class="heading">Dia único</span>
+						<span class="meta">(Sábado, 27 de Maio)</span> -->
 					</a>
 				</li>
 			</ul>
 
 			<!-- Tab panes -->
-			<div class="schedule-tab-content tab-content">
+			<!-- <div class="schedule-tab-content tab-content">
 				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
 					<div class="item item-other">
 						<div class="meta">
 							<h4 class="time mb-3">8:00 - 8:30</h4>
-						</div><!--//meta-->
+						</div>
 						<div class="content">
 							<h3 class="title mb-3">Check-in</h3>
 							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Room A5</div>
 							<div class="desc">Coffee and cakes lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</div>
-						</div><!--//content-->
-					</div><!--//item-->
+						</div>
+					</div>
 					<div class="item item-talk">
 						<div class="meta">
 							<h4 class="time mb-3">8:30 - 9:30</h4>
@@ -362,8 +392,8 @@
 								<img class="profile-image rounded-circle  mb-2"
 									src="assets/images/speakers/speaker-1.jpg" alt="">
 								<div class="name">James Doe</div>
-							</div><!--//profile-->
-						</div><!--//meta-->
+							</div>
+						</div>
 						<div class="content">
 							<h3 class="title mb-3">Best Practices And Tips For A Clean Angular Application</h3>
 							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
@@ -372,8 +402,8 @@
 								sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
 								Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
 								ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
+						</div>
+					</div>
 					<div class="item item-talk">
 						<div class="meta">
 							<h4 class="time mb-3">9:30 - 10:30</h4>
@@ -381,8 +411,8 @@
 								<img class="profile-image rounded-circle  mb-2"
 									src="assets/images/speakers/speaker-2.jpg" alt="">
 								<div class="name">Sarah Doe</div>
-							</div><!--//profile-->
-						</div><!--//meta-->
+							</div>
+						</div>
 						<div class="content">
 							<h3 class="title mb-3">Developer Productivity</h3>
 							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
@@ -391,8 +421,8 @@
 								sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
 								Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
 								ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
+						</div>
+					</div>
 					<div class="item item-talk">
 						<div class="meta">
 							<h4 class="time mb-3">10:30 - 11:30</h4>
@@ -400,8 +430,8 @@
 								<img class="profile-image rounded-circle  mb-2"
 									src="assets/images/speakers/speaker-8.jpg" alt="">
 								<div class="name">Thomas Doe</div>
-							</div><!--//profile-->
-						</div><!--//meta-->
+							</div>
+						</div>
 						<div class="content">
 							<h3 class="title mb-3">Talk Title Lorem Ipsum</h3>
 							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room C</div>
@@ -410,8 +440,8 @@
 								sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
 								Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
 								ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
+						</div>
+					</div>
 					<div class="item item-talk">
 						<div class="meta">
 							<h4 class="time mb-3">11:30 - 12:30</h4>
@@ -419,8 +449,8 @@
 								<img class="profile-image rounded-circle  mb-2"
 									src="assets/images/speakers/speaker-3.jpg" alt="">
 								<div class="name">Tim Doe</div>
-							</div><!--//profile-->
-						</div><!--//meta-->
+							</div>
+						</div>
 						<div class="content">
 							<h3 class="title mb-3">Progressive Web Apps with React.js</h3>
 							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
@@ -429,27 +459,27 @@
 								sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
 								Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
 								ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
+						</div>
+					</div>
 					<div class="item item-other">
 						<div class="meta">
 							<h4 class="time mb-3">12:30 - 13:00</h4>
-						</div><!--//meta-->
+						</div>
 						<div class="content">
 							<h3 class="title mb-3">Coffee Break</h3>
 							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Room A5</div>
 							<div class="desc">Coffee and cakes lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</div>
-						</div><!--//content-->
-					</div><!--//item-->
+						</div>
+					</div>
 
-				</div><!--//tab-1-content-->
-			</div><!--//schedule-tab-content-->
-			<div class="schedule-cta text-center mx-auto">
+				</div>
+			</div> -->
+			<!-- <div class="schedule-cta text-center mx-auto">
 				<a href="#" class="btn btn-secondary btn-lg d-block d-md-inline-block">Inscrever-se</a>
-			</div>
-		</div><!--//container-->
-	</section><!--//schedule-section-->
+			</div> -->
+		</div>
+	</section>
 
 	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
 		<div class="container">
@@ -457,9 +487,11 @@
 			<div class="row gx-5 py-lg-5">
 				<div class="col-12 h-100">
 					<div class="desc">
-						<p class="text-center">O Capital Tech 2023 será realizado em <strong>Brasília/DF</strong> no <strong>Centro
+						<p class="text-center">O Capital Tech 2023 será realizado em <strong>Brasília/DF</strong> no
+							<strong>Centro
 								Universitário e Faculdade Projeção</strong>,
-							unidade de <strong>Taguatinga, Samdú Norte.</strong></p>
+							unidade de <strong>Taguatinga, Samdú Norte.</strong>
+						</p>
 
 						<div class="row pt-3">
 							<div class="col-12 col-md-4 mb-4">
