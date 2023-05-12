@@ -678,8 +678,15 @@
 		display: none;
 	}
 
+	.schedule-tab-content .item:not(:last-child) .content {
+		margin-bottom: -90px;
+	}
 	.schedule-tab-content .item .content {
 		padding-left: 0;
+	}
+
+	.schedule-tab-content .item .content .title {
+		text-align: center;
 	}
 
 	.schedule-tab-content .item {
@@ -688,6 +695,7 @@
 
 		&:last-child {
 			margin-bottom: 0;
+			padding-left: 0;
 		}
 	}
 }
