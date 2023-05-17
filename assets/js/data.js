@@ -65,9 +65,7 @@ const speakers = [
         companyName: 'ONU/PNUD',
         linkedinLink: 'https://www.linkedin.com/in/jucineisantos/',
         twitterLink: 'https://twitter.com/jucinei',
-        githubLink: 'https://github.com/Jucinei',
-        mainBio:
-            'CTO at <a href="https://hubconnecteventos.com.br" class="text-decoration-none fw-bold" target="_blank">Hub Connect</a> &amp; CEO at <a href="https://www.linkedin.com/company/ag%C3%AAncia-digital-mark/" class="text-decoration-none fw-bold" target="_blank">Digital Mark</a>.',
+        githubLink: 'https://github.com/Jucinei'
     },
     {
         slug: 'raul-diogo',
