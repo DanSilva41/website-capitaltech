@@ -120,7 +120,12 @@ modalSpeakerInfo.addEventListener('show.bs.modal', function (event) {
     speakerNameElement.textContent = speaker.speakerName;
     jobTitleElement.textContent = speaker.jobTitle;
     companyNameElement.textContent = speaker.companyName;
-    mainBioElement.innerHTML = speaker.mainBio;
+    if (speaker.mainBio) {
+        mainBioElement.style.display = 'inherit';
+        mainBioElement.innerHTML = speaker.mainBio;
+    } else {
+        mainBioElement.style.display = 'none';
+    }
 
     _showOrHiddenLinkAttribute(linkedinLinkElement, speaker.linkedinLink);
     _showOrHiddenLinkAttribute(twitterLinkElement, speaker.twitterLink);

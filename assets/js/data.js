@@ -85,7 +85,8 @@ const speakers = [
         slug: 'sidney-cirqueira',
         avatar: 'assets/images/speakers/sidney-cirqueira.jpeg',
         speakerName: 'Sidney Cirqueira',
-        jobTitle: 'Azure Synapse Support Engineer at Microsoft | Microsoft Certified in Data & AI Big Data & Machine Learning Student',
+        jobTitle:
+            'Azure Synapse Support Engineer at Microsoft | Microsoft Certified in Data & AI Big Data & Machine Learning Student',
         companyName: 'Microsoft',
         linkedinLink: 'https://www.linkedin.com/in/sidneyoliveiracirqueira/',
         twitterLink: 'https://twitter.com/sidneyoliveiracirqueira',
@@ -107,10 +108,21 @@ const speakers = [
         avatar: 'assets/images/speakers/osman-oliveira.jpeg',
         speakerName: 'Osman de Oliveira',
         jobTitle: 'Senior Solution Architect',
-        linkedinLink: 'https://www.linkedin.com/in/osman-lira-junior-msc-27569271/',
+        companyName: 'Red Hat',
+        linkedinLink:
+            'https://www.linkedin.com/in/osman-lira-junior-msc-27569271/',
         githubLink: 'https://github.com/osmanlirajr',
         mainBio:
             'Graduado em Ciência da Computação pela <a href="https://portal.unicap.br/" class="text-decoration-none fw-bold" target="_blank">Universidade Católica de Pernambuco</a> e mestre em Engenharia de Software pelo CESAR.EDU. <br></br>Possui mais de 20 anos de experiência na área de Middleware, com foco principal de atuação em tecnologias Open Source. <br/>Atualmente na <a href="https://redhat.com" class="text-decoration-none fw-bold" target="_blank">Red Hat</a> onde atua no setor de bancos públicos e tem a missão de projetar soluções de clientes e ajudar a definir Roadmaps, melhorias e inovações que farão parte da linha de soluções da empresa',
+    },
+    {
+        slug: 'otavio-lemos',
+        avatar: 'assets/images/speakers/otavio-lemos.jpeg',
+        speakerName: 'Otávio Lemos',
+        jobTitle: 'Principal Enyerprise Cloud Architect',
+        companyName: 'Oracle',
+        linkedinLink: 'https://www.linkedin.com/in/otavio-lemos/',
+        githubLink: 'https://github.com/otavio-lemos',
     },
 ];
 
