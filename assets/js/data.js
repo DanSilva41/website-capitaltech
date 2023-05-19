@@ -117,7 +117,7 @@ const speakers = [
         slug: 'otavio-lemos',
         avatar: 'assets/images/speakers/otavio-lemos.jpeg',
         speakerName: 'Otávio Lemos',
-        jobTitle: 'Principal Enyerprise Cloud Architect',
+        jobTitle: 'Principal Enterprise Cloud Architect',
         companyName: 'Oracle',
         linkedinLink: 'https://www.linkedin.com/in/otavio-lemos/',
         githubLink: 'https://github.com/otavio-lemos',
