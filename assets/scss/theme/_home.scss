@@ -256,8 +256,6 @@
 		background: darken($theme-bg-light, 2%);
 		border-top: none;
 	}
-
-	.social-list {}
 }
 
 .modal-speaker {
@@ -379,7 +377,7 @@
 			top: 5px;
 			width: 16px;
 			height: 16px;
-			border: 4px solid $theme-color-primary;
+			border: 4px solid $gray-800;
 			background: white;
 			border-radius: 50%;
 		}
@@ -396,7 +394,23 @@
 
 			.time {
 				font-size: 1.25rem;
-				color: $theme-color-primary;
+				color: $gray-800;
+			}
+
+			.time-first {
+				color: $theme-color-primary !important;
+			}
+
+			.time-second {
+				color: $orange !important;
+			}
+
+			.time-third {
+				color: $purple !important;
+			}
+
+			.time-fouth {
+				color: $teal !important;
 			}
 
 			.location {
@@ -415,6 +429,70 @@
 			.title {
 				font-size: 1.25rem;
 			}
+		}
+	}
+
+	.item-first {
+		&:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			z-index: 5;
+			left: 190px;
+			top: 5px;
+			width: 16px;
+			height: 16px;
+			border: 4px solid $theme-color-primary !important;
+			background: white;
+			border-radius: 50%;
+		}
+	}
+
+	.item-second {
+		&:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			z-index: 5;
+			left: 190px;
+			top: 5px;
+			width: 16px;
+			height: 16px;
+			border: 4px solid $orange !important;
+			background: white;
+			border-radius: 50%;
+		}
+	}
+
+	.item-third {
+		&:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			z-index: 5;
+			left: 190px;
+			top: 5px;
+			width: 16px;
+			height: 16px;
+			border: 4px solid $purple !important;
+			background: white;
+			border-radius: 50%;
+		}
+	}
+
+	.item-fouth {
+		&:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			z-index: 5;
+			left: 190px;
+			top: 5px;
+			width: 16px;
+			height: 16px;
+			border: 4px solid $teal !important;
+			background: white;
+			border-radius: 50%;
 		}
 	}
 }
@@ -681,6 +759,7 @@
 	.schedule-tab-content .item:not(:last-child) .content {
 		margin-bottom: -90px;
 	}
+
 	.schedule-tab-content .item .content {
 		padding-left: 0;
 	}
