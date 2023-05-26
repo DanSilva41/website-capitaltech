@@ -122,6 +122,14 @@ const speakers = [
         linkedinLink: 'https://www.linkedin.com/in/otavio-lemos/',
         githubLink: 'https://github.com/otavio-lemos',
     },
+    {
+        slug: 'silezio-batista',
+        avatar: 'assets/images/speakers/silezio-batista.jpeg',
+        speakerName: 'Silézio Batista',
+        jobTitle: 'Designer e Desenvolvedor de Games',
+        companyName: 'Anti-Gravity Bunny Studios',
+        linkedinLink: 'https://www.linkedin.com/in/sileziofreitas/',
+    },
 ];
 
 function getSpeakerBySlug(speakerSlug) {
